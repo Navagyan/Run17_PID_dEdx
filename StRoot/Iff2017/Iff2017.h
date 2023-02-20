@@ -157,9 +157,10 @@ public:
     TH2D *hsigmaPion_TpcVsToF_M[3][2][2][5];
     TH2D *hsigmaKaon_TpcVsToF_M[3][2][2][5];
     TH2D *hsigmaProton_TpcVsToF_M[3][2][2][5];
-    TH2D *hsigmaPion_TpcVsToF_eta[3][2][5];
-    TH2D *hsigmaKaon_TpcVsToF_eta[3][2][5];
-    TH2D *hsigmaProton_TpcVsToF_eta[3][2][5];
+   
+    TH2D *hsigmaPion_TpcVsToF_eta[3][2][9];
+    TH2D *hsigmaKaon_TpcVsToF_eta[3][2][9];
+    TH2D *hsigmaProton_TpcVsToF_eta[3][2][9];
 
     TH1D *hnSigmaPionTPC;
     TH1D *hnSigmaPionToF;
